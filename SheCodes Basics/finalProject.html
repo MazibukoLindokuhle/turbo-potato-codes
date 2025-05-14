@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>I Love Ice Cream</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+      color: #4d2c91;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 750px;
+      margin: 50px auto;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 42px;
+      font-weight: bold;
+      color: #ff6f61;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    hr {
+      margin: 20px 0;
+      border: 1px solid #ff6f61;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      border-radius: 15px;
+    }
+
+    p {
+      padding: 0 15px;
+      font-size: 18px;
+    }
+
+    strong {
+      font-weight: bold;
+    }
+
+    em {
+      color: #ff6f61;
+    }
+
+    a {
+      color: #ff6f61;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    button {
+      display: block;
+      margin: 30px auto;
+      padding: 15px 30px;
+      font-size: 18px;
+      background: #ff6f61;
+      color: white;
+      border: 2px solid transparent;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    }
+
+    button:hover {
+      background: white;
+      color: #ff6f61;
+      border: 2px solid #ff6f61;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 25px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>I Love Ice Cream 🍨</h1>
+    <h2>Especially Rainbow Swirl Cones!</h2>
+
+    <hr />
+    <img src="https://rainbowconefranchise.com/wp-content/uploads/sites/4/2022/07/not_all_cones_desktop.jpg" alt="Rainbow Ice Cream Cone" />
+    <hr />
+
+    <p>
+        <strong>
+            Ice cream
+        </strong> 
+        is a <em>delightful frozen treat</em> loved all around the world. 
+        With flavors ranging from chocolate to bubblegum, there's something for everyone! 
+        It’s perfect on sunny days, birthdays, and after a long day. 🍦
+    </p>
+
+    <a href="https://en.wikipedia.org/wiki/Ice_cream" target="_blank">Read more on Wikipedia</a>
+
+    <button id="flavor-button">What's Your Favorite Flavor?</button>
+
+    <div class="footer">
+      Coded 👩‍💻 with ❤️ by <a href="https://www.shecodes.io/graduates/168187-lindokuhle-mazibuko" target="_blank"><strong>Lindokuhle Mazibuko</strong></a>
+    </div>
+  </div>
+
+  <script>
+    let flavorButton = document.querySelector("#flavor-button");
+
+    flavorButton.addEventListener("click", function () {
+      let flavor = prompt("What's your favorite ice cream flavor?");
+      if (flavor) {
+        alert(`🍨 Yum! I love ${flavor} too!`);
+      } else {
+        alert("Oops! No flavor? You're missing out! 😋");
+      }
+    });
+  </script>
+</body>
+</html>

@@ -48,5 +48,4 @@ In the next SheCodes modules, I’ll dive deeper into:
 
 ---
 
-Thanks for stopping by!  
-🔗 [My GitHub Profile](https://github.com/MazibukoLindokuhle)
+Thanks for stopping by!✨  

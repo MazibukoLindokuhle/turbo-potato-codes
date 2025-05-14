@@ -42,4 +42,3 @@ This is just the beginning! I plan to enhance this project with:
 ---
 
 Thanks for visiting! ✨  
-Feel free to check out more of my work on my [GitHub profile](https://github.com/MazibukoLindokuhle).
